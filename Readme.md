@@ -15,6 +15,8 @@ The MVM project was paused indefinitely well before SDIAP reached its current st
   [TokenUpdate: Managing access tokens](#tokens) <br />
   [CatalogETL: Initial catalog import](#initial_import) <br />
   [CatalogETL: Updating store data in the DB](#updating_data) <br />
+[Further development](#further_development) <br />
+[Acknowledgements](#acknowledgements) <br />
 
 <a name="technologies"><h2>Technologies</h2></a>
 - Python 3.8 / PyCharm 2022.3.1
