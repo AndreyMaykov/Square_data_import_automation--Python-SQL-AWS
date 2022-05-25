@@ -1,0 +1,346 @@
+
+
+PRODUCTS AND PRODUCT VARIATIONS:
+
++------------+-----------+-----------------------+------------------------------+--------+
+| Product    | Category  | Description           |       Product variation      | Price  |
+|            |           |                       +-------------+----------------+        |
+|            |           |                       | Attribute 1 |   Attribute 2  |        |
++------------+-----------+-----------------------+-------------+----------------+--------+
+| ASICS      | Cross     | The Hyper XC          | Size: 9     | Colour:        | $79.98 |
+| Hyper      | Country   | cross country spike   |             | Illusion Blue/ |        |
+| XC 2       | Spikes    | brings together       |             | Hazard Green   |        |
+|            |           | lightweight traction  +-------------+----------------+--------+
+|            |           | and performance fit.  | Size: 10.5  | Colour:        | $62.00 |
+|            |           |                       |             | Flash Coral/   |        |
+|            |           | The tried-and-true    |             | White          |        |
+|            |           | sole unit features    +-------------+----------------+--------+
+|            |           | a supportive          | Size: 11    | Colour:        | $79.98 |
+|            |           | contoured arch        |             | llusion Blue/  |        |
+|            |           | [...]                 |             | Hazard Green   |        |
++------------+-----------+-----------------------+-------------+----------------+--------+
+| GU Energy  | Sports    | Each packet contains  | Flavour: Tri-Berry;          | $35.95 |
+| Original   | Nutrition | 450mg of Amino acids  |                              |        |
+| Nutrition  |           | [...]                 |                              |        |
+| Gel        |           |                       |                              |        |
++------------+-----------+-----------------------+------------------------------+--------+
+
+
+CORRESPONDING JSON STRING:
+
+{
+    "objects": [
+        {
+            "type": "ITEM_OPTION",
+            "id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+            "updated_at": "2022-05-15T05:01:38.273Z",
+            "created_at": "2022-04-03T04:20:45.448Z",
+            "version": 1652590898273,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_option_data": {
+                "name": "Size",
+                "display_name": "Size",
+                "show_colors": false,
+                "values": [
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "GHG2I6BJFO6D7AX2HJYJD7US",
+                        "version": 1652590898273,
+                        "item_option_value_data": {
+                            "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                            "name": "9",
+                            "ordinal": 0
+                        }
+                    },
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "BFSZTK46VIPVO6URKF7XXJSG",
+                        "version": 1652590898273,
+                        "item_option_value_data": {
+                            "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                            "name": "10.5",
+                            "ordinal": 1
+                        }
+                    },
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "7BLBAUEFQHQV5PF3GZG4LF4R",
+                        "version": 1652590898273,
+                        "item_option_value_data": {
+                            "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                            "name": "11",
+                            "ordinal": 2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ITEM_OPTION",
+            "id": "RG6BLZYVGYTKRBMOO55SUW6I",
+            "updated_at": "2022-05-16T04:29:41.714Z",
+            "created_at": "2022-04-03T04:20:45.921Z",
+            "version": 1652675381714,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_option_data": {
+                "name": "Colour",
+                "display_name": "Colour",
+                "show_colors": false,
+                "values": [
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "GDUR64RFJ6ATDJJBZQIZICOK",
+                        "version": 1652675381714,
+                        "item_option_value_data": {
+                            "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I",
+                            "name": "Flash Coral/White",
+                            "ordinal": 0
+                        }
+                    },
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "2TUJNG444IZGWLN3NX23PM3C",
+                        "version": 1652675381714,
+                        "item_option_value_data": {
+                            "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I",
+                            "name": "Illusion Blue/Hazard Green",
+                            "ordinal": 1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CATEGORY",
+            "id": "24NQR42J3F76MPLL7VYKCTAZ",
+            "updated_at": "2022-05-15T04:26:16.857Z",
+            "created_at": "2022-05-15T04:26:16.857Z",
+            "version": 1652588776857,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "category_data": {
+                "name": "Cross Country Spikes"
+            }
+        },
+        {
+            "type": "ITEM",
+            "id": "TKRH5OUHCIEWWZOVYED7I5ET",
+            "updated_at": "2022-05-16T04:19:35.371Z",
+            "created_at": "2022-05-15T04:26:16.857Z",
+            "version": 1652674775371,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "ASICS Hyper XC 2",
+                "description": "The Hyper XC cross country spike brings together \nlightweight traction and performance fit.\n\nThe tried-and-true sole unit features \na supportive contoured arch, \n5-spike configuration and lightweight breathable mesh \nfor comfort and control.  ",
+                "visibility": "PRIVATE",
+                "category_id": "24NQR42J3F76MPLL7VYKCTAZ",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "KNZZN7T3XD6SUR7DLGFZZR4G",
+                        "updated_at": "2022-05-15T05:01:58.634Z",
+                        "created_at": "2022-05-15T04:40:22.932Z",
+                        "version": 1652590918634,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "TKRH5OUHCIEWWZOVYED7I5ET",
+                            "name": "Flash Coral/White, 10.5",
+                            "ordinal": 0,
+                            "pricing_type": "FIXED_PRICING",
+                            "price_money": {
+                                "amount": 6200,
+                                "currency": "CAD"
+                            },
+                            "item_option_values": [
+                                {
+                                    "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I",
+                                    "item_option_value_id": "GDUR64RFJ6ATDJJBZQIZICOK"
+                                },
+                                {
+                                    "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                                    "item_option_value_id": "BFSZTK46VIPVO6URKF7XXJSG"
+                                }
+                            ],
+                            "sellable": true,
+                            "stockable": true
+                        }
+                    },
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "4G7WVKSS76KP3UOQNLLPDUOA",
+                        "updated_at": "2022-05-15T05:01:58.634Z",
+                        "created_at": "2022-05-15T04:40:22.932Z",
+                        "version": 1652590918634,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "TKRH5OUHCIEWWZOVYED7I5ET",
+                            "name": "Illusion Blue/Hazard Green, 9",
+                            "ordinal": 1,
+                            "pricing_type": "FIXED_PRICING",
+                            "price_money": {
+                                "amount": 7998,
+                                "currency": "CAD"
+                            },
+                            "item_option_values": [
+                                {
+                                    "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I",
+                                    "item_option_value_id": "2TUJNG444IZGWLN3NX23PM3C"
+                                },
+                                {
+                                    "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                                    "item_option_value_id": "GHG2I6BJFO6D7AX2HJYJD7US"
+                                }
+                            ],
+                            "sellable": true,
+                            "stockable": true
+                        }
+                    },
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "GS44RAF4XC5VOKHZXGZ6FV3H",
+                        "updated_at": "2022-05-15T05:01:58.634Z",
+                        "created_at": "2022-05-15T04:40:22.932Z",
+                        "version": 1652590918634,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "TKRH5OUHCIEWWZOVYED7I5ET",
+                            "name": "Illusion Blue/Hazard Green, 11",
+                            "ordinal": 2,
+                            "pricing_type": "FIXED_PRICING",
+                            "price_money": {
+                                "amount": 7998,
+                                "currency": "CAD"
+                            },
+                            "item_option_values": [
+                                {
+                                    "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I",
+                                    "item_option_value_id": "2TUJNG444IZGWLN3NX23PM3C"
+                                },
+                                {
+                                    "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK",
+                                    "item_option_value_id": "7BLBAUEFQHQV5PF3GZG4LF4R"
+                                }
+                            ],
+                            "sellable": true,
+                            "stockable": true
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false,
+                "item_options": [
+                    {
+                        "item_option_id": "RG6BLZYVGYTKRBMOO55SUW6I"
+                    },
+                    {
+                        "item_option_id": "JD6LXM7NTPXE6KGPZWY2HCTK"
+                    }
+                ],
+                "ecom_visibility": "UNINDEXED"
+            }
+        },
+        {
+            "type": "ITEM",
+            "id": "FFXVLYO5B6SKFZ5H6IZ5LVJ7",
+            "updated_at": "2022-05-17T08:12:57.509Z",
+            "created_at": "2022-05-16T04:28:03.538Z",
+            "version": 1652775177509,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "GU Energy Original Nutrition Gel",
+                "description": "Each packet contains 450mg of Amino acids, 100 calories, and 21g of carbs; 24 count.",
+                "visibility": "PRIVATE",
+                "category_id": "FBEYI3T5GZMRR3Z67KQ7STBA",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "LMZEGLOBFI2JFJDGMGN3PJNJ",
+                        "updated_at": "2022-05-17T08:12:57.509Z",
+                        "created_at": "2022-05-16T05:33:16.347Z",
+                        "version": 1652775177509,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "FFXVLYO5B6SKFZ5H6IZ5LVJ7",
+                            "name": "Tri-Berry",
+                            "ordinal": 0,
+                            "pricing_type": "FIXED_PRICING",
+                            "price_money": {
+                                "amount": 3595,
+                                "currency": "CAD"
+                            },
+                            "location_overrides": [
+                                {
+                                    "location_id": "LEYEPB08T0JDF",
+                                    "track_inventory": false
+                                }
+                            ],
+                            "track_inventory": false,
+                            "item_option_values": [
+                                {
+                                    "item_option_id": "77V4TE37XKOJVDY7RCW5B2UU",
+                                    "item_option_value_id": "4L62BSOE23Z4WKVYVGEYFC3A"
+                                }
+                            ],
+                            "sellable": true,
+                            "stockable": true
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false,
+                "item_options": [
+                    {
+                        "item_option_id": "77V4TE37XKOJVDY7RCW5B2UU"
+                    }
+                ],
+                "ecom_visibility": "UNINDEXED"
+            }
+        },
+        {
+            "type": "ITEM_OPTION",
+            "id": "77V4TE37XKOJVDY7RCW5B2UU",
+            "updated_at": "2022-05-17T08:12:57.509Z",
+            "created_at": "2022-05-16T04:35:06.965Z",
+            "version": 1652775177509,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_option_data": {
+                "name": "Flavour",
+                "display_name": "Flavour",
+                "show_colors": false,
+                "values": [
+                    {
+                        "type": "ITEM_OPTION_VAL",
+                        "id": "4L62BSOE23Z4WKVYVGEYFC3A",
+                        "version": 1652775177509,
+                        "item_option_value_data": {
+                            "item_option_id": "77V4TE37XKOJVDY7RCW5B2UU",
+                            "name": "Tri-Berry",
+                            "ordinal": 0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CATEGORY",
+            "id": "FBEYI3T5GZMRR3Z67KQ7STBA",
+            "updated_at": "2022-05-16T06:00:29.373Z",
+            "created_at": "2022-05-16T05:23:52.149Z",
+            "version": 1652680829373,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "category_data": {
+                "name": "Sports Nutrition"
+            }
+        }
+    ]
+}
