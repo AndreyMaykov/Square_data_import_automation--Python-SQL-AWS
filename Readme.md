@@ -116,7 +116,7 @@ TokenUpdate is invoked by AWS EventBridge on a schedule that can be altered if n
 
 After a new Square store joines MVM or SDIAP and the access token for the store has been loaded into the database, it is possible to import the store catalog for the first time. In the current version of SDIAP, this process is initiated manually by the administrator. 
 
-To do so, the admin sends an HTTP POST request with a body specifying the store merchant ID and the request type (the latter must be <code>"catalog.request"}</code>. The request is processed by the CatalogETL API, which triggers the CatalogETL function. Further stages of the process are shown in the diagram below; all of them are managed by CatalogETL.
+To do so, the admin sends an HTTP POST request with a body specifying the store merchant ID and the request type (the latter must be <code>"catalog.request")</code>. The request is processed by the CatalogETL API, which triggers the CatalogETL function. Further stages of the process are shown in the diagram below; all of them are managed by CatalogETL.
 
 ![ ](https://github.com/AndreyMaykov/Square_data_import_automation__Python-SQL-AWS/blob/main/images/ctlg_import.svg)
 
