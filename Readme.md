@@ -150,7 +150,7 @@ The [above-mentioned](#naming) unconformity between the two attribute systems â€
 
 <a name="acknowledgements"><h2>Acknowledgements</h2></a>
 
-I would like to thank Alek Mlynek for initiating this project as well as discussing it in depth and in detail.
+I would like to thank Alek Mlynek for initiating this project as well as discussing it in depth and detail.
 
 Due to the websites 
 <a href="https://realpython.com/">realpython.com</a> and 
